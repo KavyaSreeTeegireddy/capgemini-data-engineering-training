@@ -1,11 +1,9 @@
 PHASE 1
 
----SparkSession Initialization
-  
+---SparkSession Initialization      
   Created a Spark environment using SparkSession which acts as the entry point for working with PySpark. It is used to create DataFrames, execute SQL queries, and manage the      overall data processing workflow.
   
 ---Problem Statement 
-  
   Retrieved all customer records, filtered customers based on city (Chennai) and age (>25), selected specific columns (customer_name, city), and performed aggregation to count    customers per city using SQL queries.
   
 ---Approach & Methods Used
