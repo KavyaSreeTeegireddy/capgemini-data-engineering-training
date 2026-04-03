@@ -63,7 +63,7 @@ FROM customers
 JOIN sales
 ON customers.customer_id = sales.customer_id
 GROUP BY customers.city, sales.customer_id
-ORDER BY customers.city, total_spend DESC;
+ORDER BY customers.city, total_amount_spend DESC;
 
 
 SELECT 
