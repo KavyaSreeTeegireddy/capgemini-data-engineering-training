@@ -9,7 +9,7 @@ data = [
 columns = ["customer_id", "name", "city", "age"]
 df = spark.createDataFrame(data, columns)
 
-#clean_df = df.dropna().show()
+clean_df = df.dropna().show()
 cleaned_df = df.fillna({
     "customer_id": 0,
     "name": "Unknown",
