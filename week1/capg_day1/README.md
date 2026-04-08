@@ -1,6 +1,7 @@
-CAPGEMINI-DAY 1
+**CAPGEMINI-DAY 1**
 
-Data Cleaning & Preprocessing – Customer Dataset                  
+Data Cleaning & Preprocessing – Customer Dataset   
+
 **Overview**--
   This project focuses on cleaning and preprocessing a customer dataset to ensure data quality, consistency, and usability for further analysis or modeling. 
   
