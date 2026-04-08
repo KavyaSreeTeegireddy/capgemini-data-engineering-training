@@ -1,10 +1,10 @@
 CAPGEMINI-DAY 1
 
 Data Cleaning & Preprocessing – Customer Dataset                  
-**Overview**----
+**Overview**--
   This project focuses on cleaning and preprocessing a customer dataset to ensure data quality, consistency, and usability for further analysis or modeling. 
   
-**Dataset Description**----
+**Dataset Description**--
   The dataset contains the following columns:    
   CustomerID – Unique identifier for each customer    
   Name – Customer name    
@@ -13,7 +13,7 @@ Data Cleaning & Preprocessing – Customer Dataset
   Sales – Sales amount    
   Category – Customer category   
   
-**Data Cleaning Steps Performed**----  
+**Data Cleaning Steps Performed**      
   1. Handling Missing Values    
   Replaced blank values in Category with "Unknown"
   Replaced blank or missing values in Sales with 0
