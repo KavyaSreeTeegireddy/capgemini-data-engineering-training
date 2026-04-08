@@ -23,13 +23,13 @@ Data Cleaning & Preprocessing – Customer Dataset
   Identified and removed duplicate records to maintain data integrity
   4. Data Standardization    
   Ensured consistency in text fields (e.g., India, india, INDIA)
-  Cleaned inconsistent entries in the Country column
+  Cleaned inconsistent entries in the Country column                                
 **Final Outcome**          
   Cleaned dataset with no duplicate records
   Consistent date format across all rows
   No missing or ambiguous categorical values
   Sales column standardized with numeric values
-**Usage**    
+**Usage**                                                                          
   This cleaned dataset can now be used for:    
   Data analysis
   Visualization
