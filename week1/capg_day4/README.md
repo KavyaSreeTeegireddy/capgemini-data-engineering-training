@@ -17,11 +17,10 @@ Emails were standardized by converting them to lowercase and removing unnecessar
 **Unified Email Mapping**                                                                                                                                                      Since students can submit using either their college or personal email, both were combined into a single mapping. This allows linking multiple emails to one unique student ID, enabling accurate tracking.                                                              
 **Phase 2: Core Analysis**                                                                                                            
 **Students Who Did Not Submit**                                                                      
-A comparison was made between the master list and submissions to identify students who did not submit any response.
-**Valid Submissions**                                                                                        
-Submissions that matched with the master dataset were identified as valid.
+A comparison was made between the master list and submissions to identify students who did not submit any response.                                                            **Valid Submissions**                                                                                        
+Submissions that matched with the master dataset were identified as valid.              
 **Invalid Submissions**
-Any email found in the submission data but not present in the master list was treated as invalid.
+Any email found in the submission data but not present in the master list was treated as invalid.                                  
 **Phase 3: Duplicate Detection**                                                                
 **Identifying Duplicates**                                                                            
 A window function was used to assign an order to submissions for each student. The earliest submission was treated as the valid one, while later ones were marked as duplicates.                                                                                                                                      
