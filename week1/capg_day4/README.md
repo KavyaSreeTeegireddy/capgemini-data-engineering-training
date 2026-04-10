@@ -29,9 +29,9 @@ GROUP BY helps count how many submissions exist per student.
 Window functions go deeper by identifying exactly which records are duplicates and which one is original.                          
 **Phase 4: Advanced Insights**                                                                                        
 **Submission Count per Student**                                                          
-Calculated how many times each student submitted the assignment.
+Calculated how many times each student submitted the assignment.                
 **Students Using Both Emails**                                                            
-Identified students who used both their college and personal emails for submissions, which can indicate inconsistencies.
+Identified students who used both their college and personal emails for submissions, which can indicate inconsistencies.                  
 **Final Classification**                                                        
 Each student was categorized into one of the following:
 Submitted → Exactly one valid submission
