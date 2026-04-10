@@ -1,5 +1,6 @@
 **Databricks Submission Analysis Project**                  
 **Overview**
+
 This project focuses on analyzing student assignment submissions using Databricks (PySpark + SQL). The goal is to clean and unify messy data, track submissions accurately, detect duplicates, and classify students based on their submission status.
 **Datasets Used**                    
 Master Table
