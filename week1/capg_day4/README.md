@@ -1,8 +1,7 @@
 **Databricks Submission Analysis Project**                  
-**Overview**
-
+**Overview**                                                                                              
 This project focuses on analyzing student assignment submissions using Databricks (PySpark + SQL). The goal is to clean and unify messy data, track submissions accurately, detect duplicates, and classify students based on their submission status.
-**Datasets Used**                    
+**Datasets Used**                                                                                                          
 Master Table
 Contains the official list of students (56 records)
 Includes student ID and both college & personal email IDs
@@ -13,9 +12,9 @@ Task1_File2
 Contains extra data (60 records)
 Includes duplicates, invalid entries, and noise
 **Phase 1: Data Preparation**                                                                                
-**Email Normalization**                                          
+**Email Normalization**                                                                                                                                                        
 Emails were standardized by converting them to lowercase and removing unnecessary spaces. This ensures consistency and avoids mismatches during joins.
-**Unified Email Mapping**                                                      
+**Unified Email Mapping**                                                                                                                      
 Since students can submit using either their college or personal email, both were combined into a single mapping. This allows linking multiple emails to one unique student ID, enabling accurate tracking.
 **Phase 2: Core Analysis**                                              
 **Students Who Did Not Submit**                                                                      
