@@ -1,6 +1,6 @@
 **Databricks Submission Analysis Project**                  
 **Overview**                                                                                              
-This project focuses on analyzing student assignment submissions using Databricks (PySpark + SQL). The goal is to clean and unify messy data, track submissions accurately, detect duplicates, and classify students based on their submission status.
+This project focuses on analyzing student assignment submissions using Databricks (PySpark + SQL). The goal is to clean and unify messy data, track submissions accurately, detect duplicates, and classify students based on their submission status.                                                                          
 **Datasets Used**                                                                                                                                      
 Master Table
 Contains the official list of students (56 records)
@@ -14,8 +14,8 @@ Includes duplicates, invalid entries, and noise
 **Phase 1: Data Preparation**                                                                                
 **Email Normalization**                                                                                                                                                        
 Emails were standardized by converting them to lowercase and removing unnecessary spaces. This ensures consistency and avoids mismatches during joins.                         
-**Unified Email Mapping**                                                                                                                                                      Since students can submit using either their college or personal email, both were combined into a single mapping. This allows linking multiple emails to one unique student ID, enabling accurate tracking.
-**Phase 2: Core Analysis**                                              
+**Unified Email Mapping**                                                                                                                                                      Since students can submit using either their college or personal email, both were combined into a single mapping. This allows linking multiple emails to one unique student ID, enabling accurate tracking.                                                              
+**Phase 2: Core Analysis**                                                                                                            
 **Students Who Did Not Submit**                                                                      
 A comparison was made between the master list and submissions to identify students who did not submit any response.
 **Valid Submissions**                                                                                        
@@ -24,7 +24,7 @@ Submissions that matched with the master dataset were identified as valid.
 Any email found in the submission data but not present in the master list was treated as invalid.
 **Phase 3: Duplicate Detection**                                                                
 **Identifying Duplicates**                                                                            
-A window function was used to assign an order to submissions for each student. The earliest submission was treated as the valid one, while later ones were marked as duplicates.
+A window function was used to assign an order to submissions for each student. The earliest submission was treated as the valid one, while later ones were marked as duplicates.                                                                                                                                      
 **GROUP BY vs Window Functions**                                                    
 GROUP BY helps count how many submissions exist per student.
 Window functions go deeper by identifying exactly which records are duplicates and which one is original.                          
