@@ -33,4 +33,12 @@ Revenue = price × quantity
 Aggregations performed:
 Revenue per customer
 Cars sold per brand
-Revenue per city
+Revenue per city                                                                                                        
+Phase 5 – SQL Analysis (PySpark)
+Top 3 customers per city
+Used window functions (row_number) for ranking
+Repeat customers
+Identified customers with multiple purchases
+Monthly revenue trend
+Extracted month & year from sale_date
+Aggregated revenue over time
