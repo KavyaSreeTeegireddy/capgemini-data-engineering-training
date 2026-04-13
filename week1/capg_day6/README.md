@@ -47,7 +47,7 @@ Integrated dealer data via sales_dealer mapping.
 Performed key analyses:
 Revenue per dealer
 Top dealers by revenue
-Dealer-city contribution → revenue distribution across cities per dealer
+Dealer-city contribution → revenue distribution across cities per dealer                                                                                            
 Phase 6 – SQL Analysis (PySpark)                                                                                                                    
 Top 3 customers per city
 Implemented using window functions (row_number)
