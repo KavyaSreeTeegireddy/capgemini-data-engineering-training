@@ -25,7 +25,7 @@ Negative car prices were replaced with nulls.
 Standardized text fields:
 Trimmed leading/trailing spaces in string columns.
 Ensured data integrity:
-Removed records with invalid foreign keys (customer_id, car_id, dealer_id).
+Removed records with invalid foreign keys (customer_id, car_id, dealer_id).                                                                                                    
 Phase 3 – Data Validation                                                                                                          
 Used left anti joins to detect:
 Sales without valid customers
@@ -34,14 +34,14 @@ Dealer mappings without valid references
 Generated a validation report including:
 Total records
 Valid vs invalid key counts
-Data quality summary
+Data quality summary                                                                                                                                    
 Phase 4 – Data Transformation                                                                                                                  
 Created derived metric:
 Revenue = price × quantity
 Aggregations performed:
 Customer revenue → total spend per customer
 Brand-wise sales → total cars sold per brand
-City-wise revenue → revenue contribution by city
+City-wise revenue → revenue contribution by city                                                                                                                        
 Phase 5 – Dealer Analytics                                                                                                              
 Integrated dealer data via sales_dealer mapping.
 Performed key analyses:
