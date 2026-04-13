@@ -3,11 +3,11 @@ Dataset Overview
 
 This project processes and analyzes sales data using multiple related datasets:
 
-customers → (customer_id, name, city)
-cars → (car_id, brand, model, price)
-sales → (sale_id, customer_id, car_id, sale_date, quantity)
-dealers → (dealer_id, name, city)
-sales_dealer → (sale_id, dealer_id)
+customers → (customer_id, name, city)                                                                                                                      
+cars → (car_id, brand, model, price)                                                                                                                              
+sales → (sale_id, customer_id, car_id, sale_date, quantity)                                                                                                  
+dealers → (dealer_id, name, city)                                                                                          
+sales_dealer → (sale_id, dealer_id)                                                                                                                        
 
 These datasets are integrated to build a complete analytics pipeline.
 
@@ -55,7 +55,7 @@ Monthly trends
 Extracted year and month from sale_date
 Aggregated revenue over time
 Repeat customers
-Identified customers with multiple purchases
+Identified customers with multiple purchases                                                                                                                    
 Phase 7 – Output                                                                                                                                      
 Saved processed and aggregated results to storage (CSV/Parquet).
 Prepared structured outputs for:
