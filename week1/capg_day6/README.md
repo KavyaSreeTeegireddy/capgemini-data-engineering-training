@@ -15,18 +15,18 @@ Verified structure using printSchema().
 Identified issues such as:
 Null values
 Negative prices
-Duplicate records
+Duplicate records                                                                                                              
 Phase 2 – Data Cleaning
 Handled missing values using fillna().
 Corrected invalid values:
 Replaced negative prices with NULL.
 Removed invalid records:
-Filtered out rows with null keys (customer_id, car_id).
+Filtered out rows with null keys (customer_id, car_id).                                                                                
 Phase 3 – Data Validation
 Used anti join to identify unmatched records (e.g., sales without valid customers).
 Generated a validation report:
 Total records
-Valid customer and car references
+Valid customer and car references                                                                      
 Phase 4 – Data Transformation
 Created a new column:
 Revenue = price × quantity
